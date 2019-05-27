@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+    <meta charset="UTF-8">
+    <title>Projet final</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="img/Favicon.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/Favicon.png" height="50" width="70"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="index2.html">Équipe</a></li>
+                <li class="nav-item"><a class="nav-link" href="index3.html">Médias</a></li>
+                <li class="nav-item"><a class="nav-link" href="index4.html">Photos</a></li>
+                <li class="nav-item"><a class="nav-link" href="index5.html">Nous joindre</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section class="container espaceForm" id="form">
+    <form class="espace">
+        <h2>Nous joindre</h2>
+        <div class="form-row">
+            <div class="form-group col-xl-6 col-sm-12">
+                <label for="nom">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom">
+            </div>
+            <div class="form-group col-xl-6 col-sm-12">
+                <label for="prenom">Prénom</label>
+                <input type="text" class="form-control" id="prenom" placeholder="Entrez votre prénom">
+            </div>
+            <div class="form-group col-xl-12 col-sm-12">
+                <label for="mail">Email</label>
+                <input type="email" class="form-control" id="mail" placeholder="Email">
+            </div>
+            <div class="form-group col-xl-12 col-sm-12">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" class="form-control" id="telephone" placeholder="4182225555">
+            </div>
+            <div class="form-group col-xl-12 col-sm-12">
+                <input type="radio" name="type"/> Question<br>
+                <input type="radio" name="type"/> Commentaire<br>
+                <input type="radio" name="type"/> Plainte
+            </div>
+            <div class="form-group col-xl-12 col-sm-12">
+                <label for="raison">À propos...</label>
+                <select id="raison" class="form-control">
+                    <option selected>autre</option>
+                    <option>de l'équipe</option>
+                    <option>d'un joueur</option>
+                    <option>d'un entraineur</option>
+                    <option>du site internet</option>
+                    <option>des parties à domicile</option>
+                    <option>des parties à l'extérieur</option>
+                    <option>du stationnement</option>
+                    <option>du Cégep de Victoriaville</option>
+                </select>
+            </div>
+            <div class="form-group col-xl-12 col-sm-12">
+                <label for="sujet">Sujet</label>
+                <input type="text" class="form-control" id="sujet">
+            </div>
+            <div class="form-group col-xl-12 col-sm-12">
+                <label for="texte">Message</label>
+                <textarea class="form-control" id="texte" rows="6"></textarea>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Continuer</button>
+    </form>
+</section>
+<footer class="basPage text-center">
+    <h3>Vulkins du Cégep de Victoriaville ©</h3>
+    <a class="aFooter" href="index5.html">Nous contacter</a>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

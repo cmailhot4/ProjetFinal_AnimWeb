@@ -1,0 +1,622 @@
+html,body {margin:0;height: 100%}
+/*Pour écrans XL*/
+@media screen and (min-width: 1200px)  {
+    /*Navbar*/
+    .navbar {
+        background-color: rebeccapurple;
+    }
+
+    .navbar .navbar-brand {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-brand:hover,
+    .navbar .navbar-brand:focus {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-text {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-text a {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-text a:hover,
+    .navbar .navbar-text a:focus {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        color: white;
+    }
+
+    nav a:hover {
+        background-color: darkorange;
+        border-radius: 10px;
+    }
+
+    .navbar .navbar-nav .nav-link:not(.disabled):hover,
+    .navbar .navbar-nav .nav-link:not(.disabled):focus {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-nav .nav-item.active .nav-link,
+    .navbar .navbar-nav .nav-item.active .nav-link,
+    .navbar .navbar-nav .nav-item.show .nav-link,
+    .navbar .navbar-nav .nav-item.show .nav-link:hover,
+    .navbar .navbar-nav .nav-item.show .nav-link:focus {
+        color: #ffffff;
+        background-color: darkorange;
+    }
+
+    .navbar .navbar-toggle {
+        border-color: darkorange;
+    }
+
+    .navbar .navbar-toggle:hover,
+    .navbar .navbar-toggle:focus {
+        background-color: darkorange;
+    }
+
+    .navbar .navbar-toggle .navbar-toggler-icon {
+        color: darkorange;
+    }
+    .navbar .navbar-collapse,
+    .navbar .navbar-form {
+        border-color: #ffffff;
+    }
+    .navbar .navbar-link {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-link:hover {
+        color: #ffffff;
+    }
+
+    /*Formulaire*/
+    .espace{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    /*Pour le footer*/
+    .basPage{
+        background-color: rebeccapurple;
+        height: 100px;
+    }
+    h3{
+        padding-top: 20px;
+        color: white;
+    }
+    .aFooter{
+        color: white;
+    }
+    /*Background index1 (accueil)*/
+    .parallax
+    {
+        background-image: url("../img/large.jpg");
+        height:100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .annee{
+        font-size: 135px;
+        color: white;
+        text-shadow: 2px 0 0 darkorange, -2px 0 0 darkorange, 0 2px 0 darkorange, 0 -2px 0 darkorange, 1px 1px darkorange, -1px -1px 0 darkorange, 1px -1px 0 darkorange, -1px 1px 0 darkorange;
+    }
+    /*Zone 1 index1 (accueil)*/
+    .cegep{
+        /*taille de la police de la zone 1*/
+        font-size: 20px;
+    }
+    /*Zone 3 index 1 (accueil)*/
+    .pasEspace{
+        padding:0;
+        margin:0;
+    }
+    .bgZone3{
+        background-image: url("../img/vulkinsEntete.jpg");
+        height: 60%;
+        background-repeat: no-repeat;
+    }
+    .h5Zone3{
+        padding: 20px;
+        color: orangered;
+        background-color: black;
+        opacity: 0.8;
+    }
+    /*Zone 4 index1 (accueil)*/
+    .bgZone4{
+        background-color: darkorange;
+    }
+    .pZone4{
+        font-size: 20px;
+    }
+    /*index2 zone1*/
+    .btn-dark{
+        background-color: rebeccapurple;
+    }
+    .bgOffensive{
+        background-color: ghostwhite;
+    }
+    .h1Offensive{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: rebeccapurple;
+    }
+    .h5Off {
+        color: rebeccapurple;
+    }
+    .bgDefensive{
+        background-color: rebeccapurple;
+    }
+    .h1Defensive{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: white;
+    }
+    h5 {
+        color: white;
+    }
+    h6 {
+        color: white;
+    }
+    /*Index 3 (médias)*/
+    .bgIndex3{
+        background-image: url("../img/CampusCegep.jpg");
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+    .yt{
+        color: red;
+    }
+    .fb{
+        color: darkblue;
+    }
+    .ig{
+        color: black;
+    }
+    /*Photos index4*/
+    .portfolio
+    {
+        padding-left:20px;
+        padding-right:20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .transition {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .img-fluid{
+        width:100%;
+    }
+    .aCredit {
+        font-size: 20px;
+        color: black;
+    }
+}
+
+/*Pour écrans MD*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    /*Navbar*/
+    .navbar {
+        background-color: rebeccapurple;
+    }
+
+    .navbar .navbar-brand {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-brand:hover,
+    .navbar .navbar-brand:focus {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-text {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-text a {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-text a:hover,
+    .navbar .navbar-text a:focus {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        color: white;
+    }
+
+    nav a:hover {
+        background-color: darkorange;
+        border-radius: 10px;
+    }
+
+    .navbar .navbar-nav .nav-link:not(.disabled):hover,
+    .navbar .navbar-nav .nav-link:not(.disabled):focus {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-nav .nav-item.active .nav-link,
+    .navbar .navbar-nav .nav-item.active .nav-link,
+    .navbar .navbar-nav .nav-item.show .nav-link,
+    .navbar .navbar-nav .nav-item.show .nav-link:hover,
+    .navbar .navbar-nav .nav-item.show .nav-link:focus {
+        color: #ffffff;
+        background-color: darkorange;
+    }
+
+    .navbar .navbar-toggle {
+        border-color: darkorange;
+    }
+
+    .navbar .navbar-toggle:hover,
+    .navbar .navbar-toggle:focus {
+        background-color: darkorange;
+    }
+
+    .navbar .navbar-toggle .navbar-toggler-icon {
+        color: darkorange;
+    }
+
+    .navbar .navbar-collapse,
+    .navbar .navbar-form {
+        border-color: #ffffff;
+    }
+
+    .navbar .navbar-link {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-link:hover {
+        color: #ffffff;
+    }
+    .navbar.navbar .navbar-toggler-icon {
+        background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=FF8C00');
+    }
+    /*Background index1 (accueil)*/
+    .parallax
+    {
+        background-image: url("../img/entree.jpg");
+        height:100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .annee{
+        font-size: 65px;
+        color: white;
+        text-shadow: 2px 0 0 darkorange, -2px 0 0 darkorange, 0 2px 0 darkorange, 0 -2px 0 darkorange, 1px 1px darkorange, -1px -1px 0 darkorange, 1px -1px 0 darkorange, -1px 1px 0 darkorange;
+    }
+    /*Zone 2 index1 (accueil)*/
+    .bgZone2{
+        background-color: white;
+        height: 1500px;
+    }
+    /*Zone 3 index 1 (accueil)*/
+    .pasEspace{
+        padding:0;
+        margin:0;
+    }
+    .bgZone3{
+        background-image: url("../img/vulkinsEntete.jpg");
+        height: 60%;
+        background-repeat: no-repeat;
+    }
+    .h5Zone3{
+        padding: 20px;
+        color: orangered;
+        background-color: black;
+        opacity: 0.8;
+    }
+    /*Zone 4 index1 (accueil)*/
+    .bgZone4{
+        background-color: darkorange;
+    }
+    .pZone4{
+        font-size: 20px;
+    }
+    /*index2 zone1*/
+    .btn-dark{
+        background-color: rebeccapurple;
+    }
+    .bgOffensive{
+        background-color: ghostwhite;
+    }
+    .h1Offensive{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: rebeccapurple;
+    }
+    .h5Off {
+        color: rebeccapurple;
+    }
+    .bgDefensive{
+        background-color: rebeccapurple;
+    }
+    .h1Defensive{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: white;
+    }
+    h5 {
+        color: white;
+    }
+    h6 {
+        color: white;
+    }
+    /*Index 3 (médias)*/
+    .bgIndex3{
+        background-image: url("../img/CampusCegep.jpg");
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+    .yt{
+        padding: 0;
+        color: red;
+    }
+    .fb{
+        color: darkblue;
+    }
+    .ig{
+        color: black;
+    }
+    /*Formulaire*/
+    .espace{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    /*Pour le footer*/
+    .basPage{
+        background-color: rebeccapurple;
+        height: 80px;
+    }
+    h3{
+        padding-top: 10px;
+        color: white;
+    }
+    .aFooter{
+        color: white;
+    }
+    /*Photos*/
+    .espaceImages{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .transition {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .img-fluid{
+        width:100%;
+    }
+    .aCredit {
+        font-size: 20px;
+        color: black;
+    }
+}
+
+/*Pour écrans XS*/
+@media screen and (max-width: 767px) {
+    /*Navbar*/
+    .navbar {
+        background-color: rebeccapurple;
+    }
+
+    .navbar .navbar-brand {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-brand:hover,
+    .navbar .navbar-brand:focus {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-text {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-text a {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-text a:hover,
+    .navbar .navbar-text a:focus {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        color: white;
+    }
+
+    nav a:hover {
+        background-color: darkorange;
+        border-radius: 10px;
+    }
+
+    .navbar .navbar-nav .nav-link:not(.disabled):hover,
+    .navbar .navbar-nav .nav-link:not(.disabled):focus {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-nav .nav-item.active .nav-link,
+    .navbar .navbar-nav .nav-item.active .nav-link,
+    .navbar .navbar-nav .nav-item.show .nav-link,
+    .navbar .navbar-nav .nav-item.show .nav-link:hover,
+    .navbar .navbar-nav .nav-item.show .nav-link:focus {
+        color: #ffffff;
+        background-color: darkorange;
+    }
+
+    .navbar .navbar-toggle {
+        border-color: darkorange;
+    }
+
+    .navbar .navbar-toggle:hover,
+    .navbar .navbar-toggle:focus {
+        background-color: darkorange;
+    }
+
+    .navbar .navbar-toggle .navbar-toggler-icon {
+        color: darkorange;
+    }
+
+    .navbar .navbar-collapse,
+    .navbar .navbar-form {
+        border-color: #ffffff;
+    }
+
+    .navbar .navbar-link {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-link:hover {
+        color: #ffffff;
+    }
+
+    .navbar.navbar .navbar-toggler-icon {
+        background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=FF8C00');
+    }
+
+    /*Background index1 (accueil)*/
+    .parallax
+    {
+        background-image: url("../img/equipe.jpg");
+        height:100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .annee{
+         font-size: 65px;
+         color: white;
+         text-shadow: 2px 0 0 darkorange, -2px 0 0 darkorange, 0 2px 0 darkorange, 0 -2px 0 darkorange, 1px 1px darkorange, -1px -1px 0 darkorange, 1px -1px 0 darkorange, -1px 1px 0 darkorange;
+     }
+    /*Zone 2 index1 (accueil)*/
+    .bgZone2{
+        background-color: white;
+        height: 1500px;
+    }
+    div.cache{
+        display: none;
+    }
+    /*Zone 3 index 1 (accueil)*/
+    .pasEspace{
+        padding:0;
+        margin:0;
+    }
+    .bgZone3{
+        background-image: url("../img/vulkinsEntete.jpg");
+        height: 60%;
+        background-repeat: no-repeat;
+    }
+    .h5Zone3{
+        padding: 20px;
+        color: orangered;
+        background-color: black;
+        opacity: 0.8;
+    }
+    /*Zone 4 index1 (accueil)*/
+    .bgZone4{
+        background-color: darkorange;
+    }
+    .pZone4{
+        font-size: 20px;
+    }
+    /*index2 zone1*/
+    .btn-dark{
+        background-color: rebeccapurple;
+    }
+    .bgOffensive{
+        background-color: ghostwhite;
+    }
+    .h1Offensive{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: rebeccapurple;
+    }
+    .h5Off {
+        color: rebeccapurple;
+    }
+    .bgDefensive{
+        background-color: rebeccapurple;
+    }
+    .h1Defensive{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: white;
+    }
+    h5 {
+        color: white;
+    }
+    h6 {
+        color: white;
+    }
+    /*Index 3 (médias)*/
+    .bgIndex3{
+        background-image: url("../img/CampusCegep.jpg");
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+    .yt{
+        padding: 0;
+        color: red;
+    }
+    .fb{
+        color: darkblue;
+    }
+    .ig{
+        color: black;
+    }
+    /*Formulaire*/
+    .espace {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    /*Pour le footer*/
+    .basPage {
+        background-color: rebeccapurple;
+        height: 60px;
+    }
+
+    h3 {
+        padding-top: 5px;
+        font-size:15px;
+        color: white;
+    }
+    .aFooter {
+        font-size: 10px;
+        color: white;
+    }
+    /*Photos*/
+    .espaceImages{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .transition {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .img-fluid{
+        width:100%;
+    }
+    .aCredit {
+        font-size: 10px;
+        color: black;
+    }
+}
